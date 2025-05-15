@@ -14,3 +14,9 @@ The simulations in this project were implemented using:
 - **EBRAINS Collaboratory** – the simulations were executed in the [EBRAINS Collaboratory](https://ebrains.eu/service/collaboratory), which provides a pre-configured computing environment with all necessary dependencies for running LFPy and NEURON-based simulations without local installation issues.
 
 All figures used in the thesis were generated using scripts contained in this repository.
+
+## Notes
+
+- This model uses a simplified population geometry and assumes fixed synaptic input patterns.
+- Figures are representative; due to randomized input placement, `np.random.seed(123)` was implemented in the code to ensure reproducible figures.
+  - Change the input of `np.random.seed()` to generate figures with new, randomzied data. 
