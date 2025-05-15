@@ -18,5 +18,6 @@ All figures used in the thesis were generated using scripts contained in this re
 ## Notes
 
 - This model uses a simplified population geometry and assumes fixed synaptic input patterns.
-- Figures are representative; due to randomized input placement, `np.random.seed(123)` was implemented in the code to ensure reproducible figures.
-  - Change the input of `np.random.seed()` to generate figures with new, randomzied data. 
+- All figures are reproducible with the provided random seed; changing the seed will produce alternate but qualitatively similar outputs.
+  - Change the input of `np.random.seed(123)` to generate figures with new, randomized data. 
+  
