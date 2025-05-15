@@ -31,7 +31,19 @@ def syn_rate(tvec, dt, freq, avrg_rate, phase=0):
 
 
 def synapses_locs(cell, z_min, z_max, ndix):
-     return cell.get_rand_idx_area_norm(z_min=z_min, z_max=z_max, nidx=ndix)
+    """Return synapse locations
+       Parameters
+       __________
+       cell : LFPy object
+       z_min : float [µm]
+       z_max : float [µm]
+       ndix : int
+
+       Returns
+       _______
+       synapse locations
+    """
+    return cell.get_rand_idx_area_norm(z_min=z_min, z_max=z_max, nidx=ndix)
 
 
 def synapse_params(reversal_potential):
