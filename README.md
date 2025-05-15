@@ -15,6 +15,10 @@ The simulations in this project were implemented using:
 
 All figures used in the thesis were generated using scripts contained in this repository.
 
+## Environment
+
+Simulations were run using Python 3.8.11, NEURON 8.2.2, and LFPy as provided in the EBRAINS Collaboratory environment.
+
 ## Notes
 
 - This model uses a simplified population geometry and assumes fixed synaptic input patterns.
